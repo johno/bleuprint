@@ -1,0 +1,10 @@
+# Site settings
+title: Bleuprint
+email: johnotander@gmail.com
+description: "A minimal, jekyll template with build tasks for scaffolding out responsive websites."
+baseurl: ""
+url: "http://bleuprint.co"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
