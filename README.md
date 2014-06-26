@@ -12,7 +12,7 @@ _Currently under development._
 
 ## Acknowledgements
 
-Based off of [mnml by @mrmrs_](http://mn-ml.cc/).
-Leverages [BASSCSS by @jxnblk](http://basscss.com).
+  * Based off of [mnml by @mrmrs_](http://mn-ml.cc/).
+  * Leverages [BASSCSS by @jxnblk](http://basscss.com).
 
 Crafted with <3 by [John Otander](http://www.johnotander.com) ([@4lpine](https://twitter.com/4lpine)).
