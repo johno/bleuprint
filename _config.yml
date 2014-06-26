@@ -5,6 +5,11 @@ description: "A minimal, jekyll template with build tasks for scaffolding out re
 baseurl: ""
 url: "http://bleuprint.co"
 
+author:
+  name: "John Otander"
+
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+exclude: ['bower_components', '.node_modules', 'scss', 'package.json', 'README.md', 'gulpfile.js', 'bower.json']
