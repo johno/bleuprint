@@ -2,6 +2,8 @@
 
 _Currently under development._
 
+A minimal, Jekyll template with build tasks for scaffolding out responsive websites.
+
 ## Contributing
 
 1. Fork it ( http://github.com/johnotander/bleuprint/fork )
