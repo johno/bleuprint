@@ -10,10 +10,11 @@ var csslint = require('gulp-csslint');
 var cssmin  = require('gulp-minify-css');
 
 gulp.task('scss', function() {
-  gulp.src('scss/c.scss')
+  gulp.src('scss/bleuprint.scss')
     .pipe(sass())
     .pipe(prefix())
     .pipe(cssmin())
+    .pipe(rename('c.css'))
     .pipe(gulp.dest('css'));
 });
 
