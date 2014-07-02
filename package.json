@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/johnotander/bleuprint",
   "devDependencies": {
+    "bower": "^1.3.5",
     "colors.css": "^1.0.0",
     "gulp": "^3.8.5",
     "gulp-autoprefixer": "0.0.7",
