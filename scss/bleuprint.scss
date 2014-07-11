@@ -15,11 +15,11 @@ html, body {
   min-height: 100%;
 }
 
-.w100 {
-  width: 100%;
+a:visited {
+  color: $blue;
 }
 
-.h100 {
+.full-height {
   min-height: 100%;
 }
 
@@ -41,4 +41,8 @@ html, body {
 
 .bg-light-gray {
   background-color: #fafafa;
+}
+
+.nav > a {
+  @extend .px2;
 }
