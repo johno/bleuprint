@@ -43,8 +43,8 @@ gulp.task('jslint', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch('scss/*.scss');
-  gulp.watch('js/*.js');
+  gulp.watch('scss/*.scss', ['csslint', 'scss']);
+  gulp.watch('js/*.js', ['jslint', 'js']);
 });
 
 gulp.task('default', ['scss', 'csslint', 'js', 'jslint', 'watch']);

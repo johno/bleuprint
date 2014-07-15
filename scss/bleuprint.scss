@@ -8,41 +8,6 @@
 @import "basscss"; // http://jxnblk.github.io/basscss
 @import "node_modules/colors.css/sass/colors";
 
-html, body {
-  margin: 0;
-  padding: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
-
-a:visited {
-  color: $blue;
-}
-
-.full-height {
-  min-height: 100%;
-}
-
-.table {
-  display: table;
-}
-
-.table-cell {
-  display: table-cell;
-}
-
-.va-middle {
-  vertical-align: middle;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.bg-light-gray {
-  background-color: #fafafa;
-}
-
-.nav > a {
-  @extend .px2;
+.container {
+  overflow-x: hidden;
 }

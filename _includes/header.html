@@ -1,9 +1,17 @@
 <header>
-  <a href="{{ "index.html" | prepend: site.baseurl }}" class="left">Bleuprint</a>
-  <nav class="nav right">
-    <a href="#">Home</a>
-    <a href="#">Pricing</a>
-    <a href="#">Features</a>
-    <a href="#">Contact</a>
-  </nav>
+  <div data-component="navbar" class="clearfix white">
+    <div class="left">
+      <div class="nav mobile-nav-table nav-big">
+        <a href="{{ "index.html" | prepend: site.baseurl }}">Bleuprint</a>
+      </div>
+    </div>
+    <div class="right">
+      <div class="nav nav-big nav-table">
+        <a href="#" class="active">Home</a>
+        <a href="#">Pricing</a>
+        <a href="#">Features</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </div>
 </header>
