@@ -12,7 +12,7 @@ $lighten-1: rgba(#fff,.125) !default;
 $lighten-2: rgba(#fff,.25) !default;
 $lighten-3: rgba(#fff,.375) !default;
 
-@import "node_modules/colors.css/sass/colors";
+@import "node_modules/colors.css/sass/colors"; // http://clrs.cc
 
 $border-color: $silver;
 
@@ -23,6 +23,11 @@ body {
   font-weight: 300;
 }
 
+p,
+.serif {
+  font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+}
+
 h1,
 h2,
 h3,
@@ -31,6 +36,8 @@ h5,
 h6 {
   font-weight: 300;
 }
+
+.huge { font-size: 5rem; }
 
 .container {
   overflow-x: hidden;
@@ -72,11 +79,4 @@ header .nav > a:hover {
 .quarter-width    { width: 25%;   }
 .eighth-width     { width: 12.5%; }
 
-p,
-.serif {
-  font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
-}
-
-.border-center {
-  margin: 0 auto;
-}
+.border-center { margin: 0 auto; }
