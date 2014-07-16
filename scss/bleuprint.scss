@@ -37,6 +37,15 @@ h6 {
   font-weight: 300;
 }
 
+a,
+a:visited {
+  color: $accent-color;
+}
+
+a:hover {
+  color: lighten($accent-color, 10%);
+}
+
 .huge { font-size: 6rem; }
 @media screen and (max-width: 48em) {
   .huge { font-size: 4rem; }
