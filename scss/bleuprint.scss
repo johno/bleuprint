@@ -38,6 +38,7 @@ h6 {
 }
 
 a,
+a:link,
 a:visited {
   color: $accent-color;
 }
@@ -55,8 +56,22 @@ a:hover {
   overflow-x: hidden;
 }
 
+header .left,
+header .right {
+  width: 100%;
+  text-align: center;
+
+  @media (min-width: $breakpoint-mobile) {
+    width: auto;
+  }
+}
+
 header .nav > a {
-  padding: 20px;
+  padding: 10px;
+
+  @media (min-width: $breakpoint-mobile) {
+    padding: 20px;
+  }
 }
 
 header .nav > a {
