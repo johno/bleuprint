@@ -102,7 +102,13 @@ header .nav > a:hover {
 .bg-very-light-gray { background-color: #f8f8f8; }
 .very-light-gray    {            color: #f8f8f8; }
 
-.two-thirds-width { width: 66%; }
+.desktop-two-thirds-width {
+  width: 100%;
+
+  @media (min-width: $breakpoint-mobile) {
+    width: 66%;
+  }
+}
 .quarter-width    { width: 25%;   }
 .eighth-width     { width: 12.5%; }
 
