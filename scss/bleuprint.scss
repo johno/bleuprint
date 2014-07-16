@@ -8,6 +8,27 @@
 @import "basscss"; // http://jxnblk.github.io/basscss
 @import "node_modules/colors.css/sass/colors";
 
+$header-a: #95a5a6;
+$accent-color: #16a085;
+
 .container {
   overflow-x: hidden;
+}
+
+header .nav > a {
+  padding: 20px;
+}
+
+header .nav > a {
+  color: $header-a;
+}
+
+header .nav > a:hover {
+  color: $accent-color;
+}
+
+.nav > a {
+  font-weight: 200;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
