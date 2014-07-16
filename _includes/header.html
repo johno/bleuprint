@@ -1,6 +1,17 @@
-<header class="table w100 text-center bg-blue">
-  <div class="table-cell va-middle white py4">
-    <h1 class="h1">Bleuprint</h1>
-    <h2 class="h4 italic">Yet another scaffold for static webpages.</h2>
+<header>
+  <div data-component="navbar" class="clearfix white px2">
+    <div class="left">
+      <div class="nav mobile-nav-table nav-big">
+        <a href="{{ "index.html" | prepend: site.baseurl }}">Bleuprint</a>
+      </div>
+    </div>
+    <div class="right">
+      <div class="nav nav-big nav-table">
+        <a href="#" class="active">Home</a>
+        <a href="#">Pricing</a>
+        <a href="#">Features</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
   </div>
 </header>

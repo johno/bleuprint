@@ -42,4 +42,9 @@ gulp.task('jslint', function() {
     .pipe(jshint.reporter('default'));
 });
 
-gulp.task('default', ['scss', 'csslint', 'js', 'jslint']);
+gulp.task('watch', function() {
+  gulp.watch('scss/*.scss', ['csslint', 'scss']);
+  gulp.watch('js/*.js', ['jslint', 'js']);
+});
+
+gulp.task('default', ['scss', 'csslint', 'js', 'jslint', 'watch']);
