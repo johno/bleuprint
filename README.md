@@ -30,5 +30,6 @@ Now you need to modify the content as you deem fit. It's best to start with the 
 
   * Based off of [mnml by @mrmrs_](http://mn-ml.cc/).
   * Leverages [BASSCSS by @jxnblk](http://basscss.com).
+  * Requires [Jekyll](http://jekyllrb.com).
 
 Crafted with <3 by [John Otander](http://www.johnotander.com) ([@4lpine](https://twitter.com/4lpine)).
