@@ -13,3 +13,6 @@ markdown: kramdown
 permalink: pretty
 
 exclude: ['bower_components', 'node_modules', 'scss', 'package.json', 'README.md', 'gulpfile.js', 'bower.json']
+
+sass:
+  compressed: true
