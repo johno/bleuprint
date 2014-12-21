@@ -12,7 +12,7 @@ $lighten-1: rgba(#fff,.125) !default;
 $lighten-2: rgba(#fff,.25) !default;
 $lighten-3: rgba(#fff,.375) !default;
 
-@import "node_modules/colors.css/sass/colors"; // http://clrs.cc
+@import "colors/colors"; // http://clrs.cc
 
 $border-color: $silver;
 
