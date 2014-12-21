@@ -11,12 +11,11 @@ git clone https://github.com/johnotander/bleuprint.git && cd bleuprint
 rm -rf .git
 git init
 npm install .
-bower install
 gulp
 jekyll serve --watch
 ```
 
-Now you need to modify the content as you deem fit. It's best to start with the _config.yml
+Now you need to modify the content as you deem fit. It's best to start with the `_config.yml`.
 
 ## Contributing
 
